@@ -1,0 +1,14 @@
+.Ethos {
+   padding-top: 10rem;
+   padding-left: 5rem;;
+}
+.Ethos-desc {
+    width: 35rem;
+    background-color: rgba(112, 112, 112, 0.445);
+    padding: 3rem 2rem 2rem 2rem;
+}
+.Ethos-title {
+    font-size: 3rem;
+    margin-bottom: -2rem;
+    margin-left: rem;
+}

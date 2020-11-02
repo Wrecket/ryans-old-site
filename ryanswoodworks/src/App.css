@@ -1,0 +1,16 @@
+.font {
+  font-family: 'Patua One', cursive;
+}
+.font2 {
+  font-family: 'Grandstander', cursive;
+}
+.bg-black {
+  background-color: rgb(0, 0, 0);
+}
+.center {
+  justify-content: center;
+  align-content: center;
+}
+.white {
+  color: white;
+}

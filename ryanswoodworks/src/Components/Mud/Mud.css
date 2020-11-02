@@ -1,0 +1,74 @@
+.Mud {
+    width: 60%;
+}
+.mud-title {
+    font-size: 4rem;
+    position: absolute;
+    right: -4rem;
+    top: -2rem;
+}
+.mud-title-1 {
+    font-size: 4.5rem;
+    transform: rotate(-10deg);
+    position: absolute;
+    right: 40rem;
+    top: -3.5rem;
+    font-weight: bold;
+    color: rgb(4, 226, 255);
+    z-index: 1;
+}
+.mud-title-2 {
+    font-size: 4.5rem;
+    position: absolute;
+    right: 37rem;
+    top: -1.5rem;
+    font-weight: bold;
+    color: rgb(234, 0, 255);
+    z-index: 1;
+}
+.mud-title-3 {
+    font-size: 4.5rem;
+    transform: rotate(5deg);
+    position: absolute;
+    right: 18rem;
+    top:-1rem;
+    font-weight: bold;
+    color: yellowgreen;
+    z-index: 1;
+}
+.monkey-box {
+    width: 5rem;
+    position: absolute;
+    right: 17rem;
+    top: 2.5rem;
+    z-index: 2;
+}
+.splat-box {
+    width: 20rem;
+    position: absolute;
+    right: 22rem;
+    top: -5rem;
+    z-index: 0;
+}
+.mud-img-container {
+    width: 60%;
+}
+.mud-wrap {
+    background-image: url("https://images.pexels.com/photos/4628179/pexels-photo-4628179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    width: 70rem;
+}
+.mud-desc {
+    margin-top: 10rem;
+    z-index: 2;
+    background-color: rgba(112, 112, 112, 0.425);
+    padding: 1rem;
+    color: white;
+
+}
+
+.mud-desc-container {
+    width: 60%;
+}
