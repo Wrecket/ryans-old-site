@@ -1,7 +1,6 @@
 import React from 'react';
 import './Nav.css'
 import logo from "../media/logo3.png"
-import Quote from '../Quote/Quote';
 
 const Nav = () => {
     return ( 
@@ -33,9 +32,6 @@ const Nav = () => {
                 </ul>
             </div>
             </nav>
-            <div className="nav-header-box d-flex">
-                <Quote />
-            </div>
         </div>
      );
 }

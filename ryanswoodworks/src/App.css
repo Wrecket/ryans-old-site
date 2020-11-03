@@ -1,3 +1,6 @@
+.App {
+  overflow: hidden;
+}
 .font {
   font-family: 'Patua One', cursive;
 }
@@ -13,4 +16,17 @@
 }
 .white {
   color: white;
+}
+.big {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.padder-xxl {
+  height: 1000px
+}
+
+@media (max-width: 550px) {
+.desktop {
+  display: none!important;
+}
 }

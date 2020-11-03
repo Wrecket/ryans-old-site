@@ -1,6 +1,10 @@
 .Quote {
     width: 100%;
     margin-right: 1rem;
+    z-index: 11;
+}
+#qoteContent {
+    z-index: 1000;
 }
 input {
     margin: .5rem;
@@ -36,4 +40,13 @@ button {
 }
 button h2 {
     color:orange;
+}
+
+@media (max-width: 550px) {
+    .quote-toggler {
+        height: 3rem;
+    }
+    button h2 {
+        font-size: 1rem;
+    }
 }
