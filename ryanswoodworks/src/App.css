@@ -25,6 +25,7 @@
   height: 1000px
 }
 
+
 @media (max-width: 550px) {
 .desktop {
   display: none!important;

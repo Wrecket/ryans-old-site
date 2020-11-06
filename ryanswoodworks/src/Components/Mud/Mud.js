@@ -2,46 +2,35 @@ import React from 'react';
 import './Mud.css';
 import monkey from '../media/monkey.png';
 import splat from '../media/splatdouble.png';
-import splat2 from '../media/splat.png';
 import logo from "../media/logo3.png";
 import arlo from '../media/Arlo.jpeg';
 import cupboard from'../media/3.jpeg';
-import laser from '../media/laser.jpeg';
-import crate from '../media/crate.jpeg';
-import personal from '../media/personalisation-plaques.jpeg'
+
 
 const Mud = () => {
     return ( 
         <div className="Mud">
+            <div classname="muddy">
             <div class="container-fluid mud-tier-1">
             <div class="row">
                 <div class="col-sm-6">
                 <div className="mud-left-side">
                     <div className="mud-wrap-text font">
-                        <h2 className="mud-title-text font">CREATE A SPACE<br></br> YOU'LL LOVE.</h2>
-                        <div className="mud-desc-wrap">
+                        <h2 className="mud-title-text text-border font">CREATE A SPACE<br></br> YOU'LL LOVE.</h2>
+                        {/* <div className="mud-desc-wrap">
                             <p className="mud-desc-2 font">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci consequatur blanditiis dolore perferendis ex. Labore laboriosam cumque enim qui distinctio ipsa at reprehenderit harum placeat, quo amet asperiores veritatis blanditiis!</p>
-                        </div>
+                        </div> */}
                     </div>  
                 </div>
                 </div>
                 <div class="col-sm-6">
                 <div className="mud-wrap d-flex">
-                        <h2 className=" mud-title-1 text-center font2">Bespoke</h2>
-                        <h2 className=" mud-title-2 text-center font2">Mud</h2>
-                        <h2 className=" mud-title-3 text-center font2">Kitchens</h2>
-                        <div className="monkey-box">
-                            <img className="monkey img-fluid" src={monkey} alt="hanging monkey" />
-                        </div>
-                        <div className="splat-box">
-                            <img className="splat img-fluid" src={splat} alt="splat"/>
-                        </div>
-                        
+                        <h2 className=" mud-title text-center font">BUILT IN SERVICES</h2>
                         <div className="mud-logo">
                             <img className="img-fluid" src={logo} alt="Logo"></img>
                         </div>
                         <div className="mud-img-container container">
-                            <img className="img-fluid" src={arlo} alt="mud kitchen"/>
+                            <img className="img-fluid" src={cupboard} alt="mud kitchen"/>
                         </div>
                         <div className="mud-desc-container text-center container">
                             <p className="mud-desc font2">Click for more info</p>
@@ -50,78 +39,12 @@ const Mud = () => {
                 </div>
             </div>
             </div>
-            <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-8 mud-tier-2">
-                <h2 className="personal-custom-title font">OUR SERVICES</h2>
-                <div className="personal">
-                    <div className="personal-img-wrap d-flex">
-                        <div className="personal-img-container container">
-                            <img className="img-fluid" src={laser} alt="mud kitchen"/>
-                        </div>
-                        <div className="personal-img-container container">
-                            <img className="img-fluid" src={personal} alt="mud kitchen"/>
-                        </div>
-                    </div>
-                    <div className="personal-title-wrap">
-                        <h2 className="personal-title font">PERSONALIASATION</h2>
-                    </div>
-                    <div className="personal-desc-wrap">
-                    <a href="nothing"><p className="personal-desc font">Click to find out more</p></a>
-                    </div>
-                </div>
-                <div className="d-flex">
-                    <div>
-                <div className="crate">
-                    <div className="personal-img-wrap d-flex">
-                        <div className="crate-img-container container">
-                            <img className="img-fluid" src={crate} alt="custom made crate"/>
-                        </div>
-                    </div>
-                    <div className="personal-title-wrap">
-                        <h2 className="personal-title font">CUSTOM WORKS</h2>
-                    </div>
-                    <div className="personal-desc-wrap">
-                    <a href="nothing"><p className="personal-desc font">Click to find out more</p></a>
-                    </div>
-                </div>
-                <div className="barwrap">
-                    <div className="logo">
-                        <img className="img-fluid" src={logo} alt="Logo"></img>
-                    </div>
-                </div>
-                </div>
-                <div className="mud-left-mover d-flex">
-                    <div>
-                        <div className="mud-custom-wrap">
-                            <div className="mud-img-wrapper">
-                                <img className="mud-img-left img-fluid" src={cupboard} alt="Built in works"></img>
-                            </div>
-                            <h2 className="mud-custom-title font">BUILT IN SERVICES</h2>
-                            <a href="nothing"><p className="mud-custom-desc">Click for more info</p></a>
-                        </div>
-                        <div className="mud-custom-wrap mt-5">
-                            <div className="mud-img-wrapper">
-                                <img className="mud-img-left img-fluid" src="https://images.pexels.com/photos/207153/pexels-photo-207153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Built in works"></img>
-                            </div>
-                            <h2 className="mud-custom-title font">OUTDOOR STRUCTURES</h2>
-                            <a href="nothing"><p className="mud-custom-desc">Click for more info</p></a>
-                        </div>
-                    </div>
-                </div>
-                
-                </div>
-                </div>
-                <div class="col-sm-4">
-                </div>
-            </div>
-            </div>
         <div>
         </div>
         
                
                     
-           
+        </div>
             </div>
             );
 }

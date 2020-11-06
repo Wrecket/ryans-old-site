@@ -1,9 +1,11 @@
 import React from 'react';
 import './App.css';
+import Built from './Components/Built/Built';
 import Footer from './Components/Footer/Footer';
 import Main from './Components/Main/Main';
 import Mud from './Components/Mud/Mud';
 import Nav from './Components/Nav/Nav';
+import Services from './Components/Services/Services';
 
 
 class App extends React.Component {
@@ -13,6 +15,8 @@ class App extends React.Component {
         <Nav />
         <Main />
         <Mud />
+        {/* <Built /> */}
+        {/* <Services /> */}
         <Footer />
       </div>
     );

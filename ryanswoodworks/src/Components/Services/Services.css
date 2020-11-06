@@ -1,0 +1,82 @@
+.Services {
+    background: url("https://images.pexels.com/photos/113726/pexels-photo-113726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-attachment: fixed;
+    padding-top: 15rem;
+    height: 100rem;
+    position: relative;
+}
+.personal {
+	width: 44rem;
+	margin-right: 2rem;
+	margin-left: 3.5rem;
+    margin-top: 2rem;
+}
+.personal-desc {
+	margin-top: -1rem;
+}
+.personal-title-wrap {
+	color: white;
+}
+.personal-img-container {
+	width: 30rem;
+	margin: 0;
+	padding: 0;
+}
+.personal-img-wrap {
+    border-bottom-left-radius: 15%;
+    overflow: hidden;
+}
+.barwrap {
+	position: relative;
+	height: 10rem;
+	margin-top: 0rem;
+    margin-left: 3rem;
+}
+.logo {
+	position: absolute;
+	width: 12rem;
+	z-index: 3;
+}
+.personal-custom-title {
+	position: absolute;
+	top: -3rem;
+	right: 0;
+	color: white;
+	font-size: 4rem;
+}
+.crate {
+	width: auto;
+	margin-right: 2.5rem;
+	margin-left: 1rem;
+}
+
+.crate-img-container {
+	width: 15rem;
+	margin: 0;
+	padding: 0;
+}
+.mud-tier-2 {
+	margin-top: 10rem;
+	background-color: black;
+	padding: 3rem;
+    margin-left: 8rem;
+    border-bottom-left-radius: 25%;
+}
+.mud-custom-wrap {
+    margin-left: -1rem;
+}
+.mud-img-wrapper {
+	width: 15rem;
+}
+.blackbar {
+    width: 100%;
+    position: absolute;
+    height: 7rem;
+    top: 50%;
+    background-color: black;
+    justify-content: flex-end;
+    align-items: center;
+}
+.built-in {
+    width: 30rem !important;
+}
