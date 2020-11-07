@@ -84,9 +84,7 @@
 	z-index: 3;
 }
 .built-wrap {
-	/* background-image: url("https://images.pexels.com/photos/4628179/pexels-photo-4628179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
 	background-image: url("https://images.pexels.com/photos/168452/pexels-photo-168452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-	/* background-image: url("https://images.pexels.com/photos/1812960/pexels-photo-1812960.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
 	background-size: cover;
 	background-repeat: repeat-x;
 	background-attachment: fixed;

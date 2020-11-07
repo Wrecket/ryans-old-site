@@ -17,10 +17,11 @@
 }
 .other-title-text {
 	font-size: 4rem;
-	margin-top: 5rem;
+	margin-top: 2rem;
 }
 .other-wrap {
-	background-image: url("https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	/* background-image: url("https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
+	background-image: url("https://images.pexels.com/photos/21387/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 	background-size: cover;
 	background-repeat: repeat-x;
 	background-attachment: fixed;
