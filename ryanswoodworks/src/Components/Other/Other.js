@@ -34,12 +34,12 @@ const Other = () => {
                             </div>
                         </div>
                         <div classname="other-image-wrapper">
-                            <div className="other-img-container container">
+                            <div className="other-img-container desktop container">
                                 <img className="img-fluid" src={cupboard} alt="Built kitchen"/>
                             </div>
                         </div>
                         </div>
-                            <div className="other-img-container container">
+                            <div className="other-img-container desktop container">
                                 <img className="img-fluid" src={laser} alt="Built kitchen"/>
                             </div>
                         <div className="other-desc-container text-center container">

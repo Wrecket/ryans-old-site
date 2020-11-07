@@ -19,16 +19,18 @@
     font-size: 2rem;
     margin-bottom: -2rem;
     margin-right: 2rem;
-    width: 50%
+    width: 100%;
+    text-align: center;
 }
 .Ethos {
     padding-top: 4rem;
-    padding-left: 1rem;;
+    padding-left: 0;
  }
  .Ethos-desc {
-    width: 70vw;
+    width: 100%;
     background-color: rgba(112, 112, 112, 0.445);
-    padding: 3rem 0 0 0;
+    padding: 4rem 2rem 2rem 2rem;
     margin-bottom: 2rem;
+
 }
 }

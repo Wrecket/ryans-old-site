@@ -102,5 +102,95 @@ a {
 	color: orange;
 }
 
+@media (max-width: 800px) {
+	.other-wrap {
+		width: auto;
+		height: 80vh;
+		margin-top: -8rem;
+		display: block!important;
+	}
+	.other-title {
+		font-size: 2rem;
+		position: static;
+		display: block;
+		margin-top: -3.6rem
+	}
+	.other-wrap-text {
+		margin-top: 1rem;
+		text-align: center;
+	}
+	.other-title-text {
+		font-size: 2.5rem;
+		display: block;
+	}
+	.other-left-side {
+		width: 100%;
+	}
+	.other-img-container {
+		width: 100%;
+		padding: .5rem;
+		margin-top: -2rem;
+	}
+	.other-logo {
+		width: 3rem;
+		left: 2rem;
+		bottom: 5rem;
+	}
+	.other-desc-container {
+		position: static;
+		width: 100%;
+	}
+	.other-desc {
+		width: 100%;
+	}
+}
+
+@media (max-width: 550px) {
+	.row {
+		display: block;
+	}
+	.other-wrap {
+		width: auto;
+		height: 50vh;
+		margin-top: auto;
+		display: block!important;
+	}
+	.other-title {
+		font-size: 2rem;
+		position: static;
+		display: inline;
+		margin-left: 1.5rem;
+	}
+	.other-wrap-text {
+		margin-top: -27rem;
+		margin-bottom: 8rem;
+		text-align: center;
+	}
+	.other-title-text {
+		font-size: 3rem;
+		display: block;
+	}
+	.other-left-side {
+		width: 100%;
+	}
+	.other-img-container {
+		width: 100%;
+		padding: .5rem;
+	}
+	.other-logo {
+		width: 3rem;
+		left: 2rem;
+		bottom: 5rem;
+	}
+	.other-desc-container {
+		position: static;
+		width: 100%;
+	}
+	.other-desc {
+		width: 100%;
+	}
+}
+
+
 
 

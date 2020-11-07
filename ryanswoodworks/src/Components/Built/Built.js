@@ -42,7 +42,7 @@ const Built = () => {
                         <img className="img-fluid" src={arlo} alt="Built kitchen"/>
                 </div>
                 <div className="built-desc-container text-center container">
-                        <p className="Built-desc font2">Click for more info</p>
+                        <p className="built-desc font2">Click for more info</p>
                 </div>
                 </div> 
                 <div class="col-sm-6">

@@ -20,8 +20,8 @@ class App extends React.Component {
         <Fence />
         <Built />
         <Fence />
-        <Other />
-        <Fence />
+        {/* <Other />
+        <Fence /> */}
         {/* <Services /> */}
         <Footer />
       </div>
