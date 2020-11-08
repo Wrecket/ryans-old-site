@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.da693052.chunk.css",
+    "main.js": "/static/js/main.3e143ee8.chunk.js",
+    "main.js.map": "/static/js/main.3e143ee8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d54c6417.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d54c6417.js.map",
+    "static/js/2.43d6defd.chunk.js": "/static/js/2.43d6defd.chunk.js",
+    "static/js/2.43d6defd.chunk.js.map": "/static/js/2.43d6defd.chunk.js.map",
+    "static/js/3.ed888737.chunk.js": "/static/js/3.ed888737.chunk.js",
+    "static/js/3.ed888737.chunk.js.map": "/static/js/3.ed888737.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.da693052.chunk.css.map": "/static/css/main.da693052.chunk.css.map",
+    "static/js/2.43d6defd.chunk.js.LICENSE.txt": "/static/js/2.43d6defd.chunk.js.LICENSE.txt",
+    "static/media/1.5a7d4cad.jpeg": "/static/media/1.5a7d4cad.jpeg",
+    "static/media/3.19013c74.jpeg": "/static/media/3.19013c74.jpeg",
+    "static/media/Arlo.f2d7aec9.jpeg": "/static/media/Arlo.f2d7aec9.jpeg",
+    "static/media/crate.3733cace.jpeg": "/static/media/crate.3733cace.jpeg",
+    "static/media/laser.ac32ea3e.jpeg": "/static/media/laser.ac32ea3e.jpeg",
+    "static/media/logo3.d908afc2.png": "/static/media/logo3.d908afc2.png",
+    "static/media/monkey.e0895c8f.png": "/static/media/monkey.e0895c8f.png",
+    "static/media/personalisation-plaques.203e6c00.jpeg": "/static/media/personalisation-plaques.203e6c00.jpeg",
+    "static/media/splatdouble.92fd1527.png": "/static/media/splatdouble.92fd1527.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d54c6417.js",
+    "static/js/2.43d6defd.chunk.js",
+    "static/css/main.da693052.chunk.css",
+    "static/js/main.3e143ee8.chunk.js"
+  ]
+}
