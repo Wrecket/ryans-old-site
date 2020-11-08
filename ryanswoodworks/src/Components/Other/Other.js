@@ -14,7 +14,7 @@ const Other = () => {
                     <div class="col-sm-6">
                         <div className="other-left-side">
                             <div className="other-wrap-text font">
-                                <h2 className="other-title-text text-border font">MAKE IT <br></br>PERSONAL.</h2>
+                                <h2 className="other-title-text text-border font">MAKE IT PERSONAL.</h2>
                                     {/* <div className="mud-desc-wrap">
                                         <p className="mud-desc-2 font">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci consequatur blanditiis dolore perferendis ex. Labore laboriosam cumque enim qui distinctio ipsa at reprehenderit harum placeat, quo amet asperiores veritatis blanditiis!</p>
                                     </div> */}

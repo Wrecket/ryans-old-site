@@ -13,14 +13,23 @@
     font-size: 3rem;
     margin-bottom: -2rem;
 }
-
+@media (max-width: 800px) {
+    .Ethos-title {
+        font-size: 2rem;
+        margin-bottom: -2rem;
+        margin-left: 3rem;
+    }
+    .Ethos-desc {
+       text-align: center;
+    }
+}
 @media (max-width: 550px) {
     .Ethos-title {
-    font-size: 2rem;
-    margin-bottom: -2rem;
-    margin-right: 2rem;
-    width: 100%;
-    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom:-2rem ;
+    margin-right: 0 ;
+    width: auto;
+    text-align: left;
 }
 .Ethos {
     padding-top: 4rem;

@@ -24,7 +24,9 @@
 .padder-xxl {
   height: 1000px
 }
-
+.mobile {
+  display: none;
+}
 
 @media (max-width: 550px) {
 .desktop {

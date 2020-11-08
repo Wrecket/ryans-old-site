@@ -5,7 +5,6 @@
 	border: 10px solid black;
 	background-color: black;
 	justify-content: space-around;
-	
 	height: 5rem;
 }
 .built-title {
@@ -63,7 +62,7 @@
 .splat-box2 {
 	width: 20rem;
 	position: absolute;
-	left: -20rem;
+	left: -33rem;
 	bottom: -5rem;
 	z-index: 2;
 }
@@ -156,12 +155,18 @@ a {
 }
 
 @media (max-width: 800px) {
+	.built-wrap-text {
+		margin-left: 0;
+	}
+	.desktop {
+		display: none;
+	}
 	.Built {
 		display: block;
 	}
 	.built-wrap {
 		width: auto;
-		height: 57vh;
+		height: auto;
 		margin-top: -9rem;
 		display: block!important;
 		margin-left: 0;
@@ -176,6 +181,7 @@ a {
 		margin-top: -20rem;
 		margin-bottom: 3rem;
 		text-align: center;
+		display: none;
 	}
 	.built-title-text {
 		font-size: 3rem;
@@ -317,7 +323,7 @@ a {
 		top: -2rem;
 	}
 	.built-title-1 {
-		font-size: 3rem;
+		font-size: 2.5rem;
 		transform: rotate(-10deg);
 		position: absolute;
 		left: -2rem;
@@ -328,7 +334,7 @@ a {
 		text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
 	}
 	.built-title-2 {
-		font-size: 3rem;
+		font-size: 2.5rem;
 		position: absolute;
 		left: 4rem;
 		top: -2rem;
@@ -338,10 +344,10 @@ a {
 		text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
 	}
 	.built-title-3 {
-		font-size: 3rem;
+		font-size: 2.5rem;
 		transform: rotate(5deg);
 		position: absolute;
-		left: 10.5rem;
+		left: 9.5rem;
 		top: -2rem;
 		font-weight: bold;
 		color: white;

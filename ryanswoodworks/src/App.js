@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Built from './Components/Built/Built';
 import Fence from './Components/Fence/Fence';
+import Fence2 from './Components/Fence2/Fence2';
 import Footer from './Components/Footer/Footer';
 import Main from './Components/Main/Main';
 import Mud from './Components/Mud/Mud';
@@ -19,9 +20,9 @@ class App extends React.Component {
         <Mud />
         <Fence />
         <Built />
-        <Fence />
-        {/* <Other />
-        <Fence /> */}
+        <Fence2 />
+        <Other />
+        <Fence2 />
         {/* <Services /> */}
         <Footer />
       </div>

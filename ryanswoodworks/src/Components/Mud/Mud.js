@@ -13,7 +13,8 @@ const Mud = () => {
                     <div className="col-sm-6">
                         <div className="mud-left-side">
                             <div className="mud-wrap-text font">
-                                <h2 className="mud-title-text text-border font">CREATE A SPACE<br></br> YOU'LL LOVE.</h2>
+                                <h2 className="mud-title-text text-border font desktop">CREATE A SPACE<br></br> YOU'LL LOVE.</h2>
+                                <h2 className="mud-title-text text-border font mobile">OUR SERVICES.</h2>
                                     {/* <div className="mud-desc-wrap">
                                         <p className="mud-desc-2 font">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci consequatur blanditiis dolore perferendis ex. Labore laboriosam cumque enim qui distinctio ipsa at reprehenderit harum placeat, quo amet asperiores veritatis blanditiis!</p>
                                     </div> */}

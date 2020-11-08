@@ -13,6 +13,7 @@
 .mud-wrap-text {
 	color: white;
 	font-size: 4rem;
+	margin-left: 10rem;
 }
 .mud-title-text {
 	font-size: 4rem;
@@ -24,8 +25,9 @@
 	background-repeat: repeat-x;
 	background-attachment: fixed;
 	position: relative;
+	padding-bottom: 5rem;
 	width: 40rem;
-	height: 33rem;
+	height: auto;
 	margin-top: -15rem;
 	border: 1rem solid black;
 }
@@ -94,11 +96,16 @@ a {
 
 @media (max-width: 800px) {
 
+	.mud-wrap-text {
+		margin-left: 1rem;
+	}
 	.mud-wrap {
 		width: auto;
-		height: 80vh;
+		height: auto;
 		margin-top: -8rem;
 		display: block!important;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
 	}
 	.mud-title {
 		font-size: 2rem;
@@ -136,25 +143,29 @@ a {
 }
 
 @media (max-width: 550px) {
+	.mud-wrap-text {
+		margin-left: 0;
+	}
 	.row {
 		display: block;
 	}
 	.mud-wrap {
 		width: auto;
 		height: 50vh;
-		margin-top: auto;
+		margin-top: 4rem;
 		display: block!important;
 	}
 	.mud-title {
-		font-size: 2rem;
+		font-size: 1.5rem;
 		position: static;
 		display: inline;
-		margin-left: 1rem;
+		white-space: nowrap;
 	}
 	.mud-wrap-text {
-		margin-top: -20rem;
+		margin-top: -16rem;
 		margin-bottom: 3rem;
 		text-align: center;
+		background-color: black;
 	}
 	.mud-title-text {
 		font-size: 3rem;
