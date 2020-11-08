@@ -1,23 +1,24 @@
-.Fence {
+.Fence2 {
     background-image: url("https://images.pexels.com/photos/113726/pexels-photo-113726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     height: 50vh;
     background-attachment: fixed;
 } 
 
 @media (max-width: 550px) {
-    .Fence {
-        height: 120vh;
+    .Fence2 {
+        height: 30vh;
     } 
 }
 
 @media (max-width: 800px) {
-    .Fence {
-        height: 100vh;
+    .Fence2 {
+        height: 30vh;
     } 
 }
 
 @media (max-width:1024px) {
-    .Fence {
-        height: 70vh;
+    .Fence2 {
+        height: 65vh;
+        padding-bottom: 10rem;
     } 
 }

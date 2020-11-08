@@ -1,0 +1,379 @@
+.Built {
+	position: relative;
+	width: 100%;
+	z-index: 100;
+	border: 10px solid black;
+	background-color: black;
+	justify-content: space-around;
+	height: 5rem;
+}
+.built-title {
+	font-size: 4rem;
+	position: absolute;
+	right: -4rem;
+	top: -2rem;
+}
+.built-title-1 {
+	font-size: 4.5rem;
+	transform: rotate(-10deg);
+	position: absolute;
+	left: 1rem;
+	top: -3.5rem;
+	font-weight: bold;
+	color: white;
+	z-index: 3;
+	text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+}
+.built-title-2 {
+	font-size: 4.5rem;
+	position: absolute;
+	left: 14rem;
+	top: -1.5rem;
+	font-weight: bold;
+	color: white;
+	z-index: 3;
+	text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+}
+.built-title-3 {
+	font-size: 4.5rem;
+	transform: rotate(5deg);
+	position: absolute;
+	left: 23rem;
+	top: -1rem;
+	font-weight: bold;
+	color: white;
+	z-index: 3;
+	text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+}
+.monkey-box {
+	width: 5rem;
+	position: absolute;
+	right: 2rem;
+	top: 2.5rem;
+	z-index: 2;
+}
+.splat-box {
+	width: 20rem;
+	position: absolute;
+	right: 7em;
+	top: -5rem;
+	z-index: 1;
+}
+.splat-box2 {
+	width: 20rem;
+	position: absolute;
+	left: -33rem;
+	bottom: -5rem;
+	z-index: 2;
+}
+.built-img-container {
+	width: 70%;
+	padding: 2rem;
+	margin-top: 3rem;
+	margin-left: -4rem;
+	position: absolute;
+	left: 10rem;
+}
+.built-logo {
+	position: absolute;
+	width: 7rem;
+	bottom: .3rem;
+	left: 1rem;
+	transform: rotate(15deg);
+	z-index: 3;
+}
+.built-wrap {
+	background-image: url("https://images.pexels.com/photos/168452/pexels-photo-168452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	background-size: cover;
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	position: relative;
+	width: 40rem;
+	height: 33rem;
+	margin-top: -15rem;
+	margin-left: 8rem;
+	border: 1rem solid black;
+}
+.built-desc-container {
+	width: 60%;
+	position: absolute;
+	bottom: 0;
+	left: 10rem;
+}
+
+.built-desc {
+	margin-top: 0rem;
+	z-index: 2;
+	background-color: rgba(112, 112, 112, 0.425);
+	padding: 1rem;
+	color: white;
+	width:90%;
+	
+}
+.built-custom-desc {
+	font-size: 1rem;
+	margin-top: -1rem;
+}
+.built-left-side {
+	width: 80%;
+}
+
+.built-wrap-text {
+	color: white;
+	margin: -3rem;
+	margin-left: 2rem;
+	font-size: 4rem;
+	position: absolute;
+	right: 10rem;
+	bottom: -1rem;
+}
+.builty-title-text {
+	font-size: 4rem;
+	z-index: 10;
+	right: 3rem;
+}
+.built-desc-wrap {
+	font-size: 1rem;
+	width: 50%;
+}
+.built-custom-title {
+	color: white;
+}
+a {
+	color: orange;
+}
+.muddy {
+	transform: rotate(5deg);
+} 
+.built-title-text {
+	position: absolute;
+	z-index: 3;
+	left:2rem;
+	top: 3rem;
+	white-space: nowrap;
+	font-size: 10rem!important;
+}
+
+@media (max-width: 800px) {
+	.built-wrap-text {
+		margin-left: 0;
+	}
+	.desktop {
+		display: none;
+	}
+	.Built {
+		display: block;
+	}
+	.built-wrap {
+		width: auto;
+		height: auto;
+		margin-top: -9rem;
+		display: block!important;
+		margin-left: 0;
+	}
+	.built-title {
+		font-size: 2rem;
+		position: static;
+		display: inline;
+		margin-left: 1rem;
+	}
+	.built-wrap-text {
+		margin-top: -20rem;
+		margin-bottom: 3rem;
+		text-align: center;
+		display: none;
+	}
+	.built-title-text {
+		font-size: 3rem;
+		display: block;
+	}
+	.built-left-side {
+		width: 100%;
+	}
+	.built-img-container {
+		width: 100%;
+		padding: 1.5rem;
+		margin: 0;
+		position: static;
+	}
+	.built-logo {
+		width: 3rem;
+		left: 2rem;
+		bottom: 7rem;
+	}
+	.built-desc-container {
+		position: static;
+		width: 100%;
+	}
+	.built-desc {
+		width: 100%;
+	}
+	.built-title {
+		font-size: 4rem;
+		position: absolute;
+		right: -4rem;
+		top: -2rem;
+	}
+	.built-title-1 {
+		font-size: 3rem;
+		transform: rotate(-10deg);
+		position: absolute;
+		left: -2rem;
+		top: -4rem;
+		font-weight: bold;
+		color: white;
+		z-index: 4;
+		text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+	}
+	.built-title-2 {
+		font-size: 3rem;
+		position: absolute;
+		left: 4rem;
+		top: -2rem;
+		font-weight: bold;
+		color: white;
+		z-index: 3;
+		text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+	}
+	.built-title-3 {
+		font-size: 3rem;
+		transform: rotate(5deg);
+		position: absolute;
+		left: 10.5rem;
+		top: -2rem;
+		font-weight: bold;
+		color: white;
+		z-index: 3;
+		text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+	}
+	.monkey-box {
+		width: 5rem;
+		position: absolute;
+		right: 0rem;
+		top: -.5rem;
+		z-index: 3;
+	}
+	.splat-box {
+		width: 15rem;
+		position: absolute;
+		right: 3em;
+		top: -6rem;
+		z-index: 1;
+
+	}
+	.splat-box2 {
+		width: 20rem;
+		left: -15rem;
+		bottom: -10rem;
+		z-index: 2;
+	}
+}
+
+@media (max-width: 550px) {
+	.Built {
+		display: block;
+	}
+	.built-wrap {
+		width: auto;
+		height: 57vh;
+		margin-top: -9rem;
+		display: block!important;
+		margin-left: 0;
+	}
+	.built-title {
+		font-size: 2rem;
+		position: static;
+		display: inline;
+		margin-left: 1rem;
+	}
+	.built-wrap-text {
+		margin-top: -20rem;
+		margin-bottom: 3rem;
+		text-align: center;
+	}
+	.built-title-text {
+		font-size: 3rem;
+		display: block;
+	}
+	.built-left-side {
+		width: 100%;
+	}
+	.built-img-container {
+		width: 100%;
+		padding: 1.5rem;
+		margin: 0;
+		position: static;
+	}
+	.built-logo {
+		width: 3rem;
+		left: 2rem;
+		bottom: 7rem;
+	}
+	.built-desc-container {
+		position: static;
+		width: 100%;
+	}
+	.built-desc {
+		width: 100%;
+	}
+	.built-title {
+		font-size: 4rem;
+		position: absolute;
+		right: -4rem;
+		top: -2rem;
+	}
+	.built-title-1 {
+		font-size: 2.5rem;
+		transform: rotate(-10deg);
+		position: absolute;
+		left: -2rem;
+		top: -4rem;
+		font-weight: bold;
+		color: white;
+		z-index: 4;
+		text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+	}
+	.built-title-2 {
+		font-size: 2.5rem;
+		position: absolute;
+		left: 4rem;
+		top: -2rem;
+		font-weight: bold;
+		color: white;
+		z-index: 3;
+		text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+	}
+	.built-title-3 {
+		font-size: 2.5rem;
+		transform: rotate(5deg);
+		position: absolute;
+		left: 9.5rem;
+		top: -2rem;
+		font-weight: bold;
+		color: white;
+		z-index: 3;
+		text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+	}
+	.monkey-box {
+		width: 5rem;
+		position: absolute;
+		right: 0rem;
+		top: -.5rem;
+		z-index: 3;
+	}
+	.splat-box {
+		width: 15rem;
+		position: absolute;
+		right: 3em;
+		top: -6rem;
+		z-index: 1;
+
+	}
+	.splat-box2 {
+		width: 20rem;
+		left: -15rem;
+		bottom: 18rem;
+		z-index: 2;
+	}
+}
+

@@ -1,0 +1,48 @@
+.Personal {
+    width: 60%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: relative;
+    height: auto;
+    border-bottom-left-radius: 40%!important;
+}
+.personal-img-box {
+    width: 100%;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+.personal-img-box-2 {
+    width: 100%;
+    padding: 2rem 1rem 0.5rem 1rem;
+    border-bottom-left-radius: 90%!important;
+    overflow: hidden;
+}
+.personal-wrap {
+    width: 100%;
+    padding: 0;
+}
+.personal-desc {
+    width: 25rem;
+    padding-top: 1rem;
+    margin: 0;
+}
+.personal-left {
+    width: 50%;
+}
+.personal-header {
+    position: absolute;
+    top: -2rem;
+    font-size: 3rem;;
+}
+.personal-desc-box {
+    padding: 2rem 1rem 2rem 2rem;
+    
+}
+.personal-photos {
+    width: 70%
+}
+.personal-logo-box {
+    width: 16rem;
+    position: absolute;
+    bottom: 4rem;
+    left: 4rem;
+}
