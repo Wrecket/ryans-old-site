@@ -1,5 +1,5 @@
 {
-  "hoepage": "http://Wrecket.github.io/ryanswoodworks.co.uk",
+  "homepage": "http://Wrecket.github.io/ryanswoodworks.co.uk",
   "name": "ryanswoodworks",
   "version": "0.1.0",
   "private": true,
@@ -44,5 +44,12 @@
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wrecket/ryanswoodworks.co.uk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wrecket/ryanswoodworks.co.uk/issues"
   }
 }
