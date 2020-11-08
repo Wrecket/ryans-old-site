@@ -8,7 +8,6 @@ import Main from './Components/Main/Main';
 import Mud from './Components/Mud/Mud';
 import Nav from './Components/Nav/Nav';
 import Other from './Components/Other/Other';
-import Services from './Components/Services/Services';
 
 
 class App extends React.Component {
